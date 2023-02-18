@@ -30,4 +30,3 @@ steps:
     repository: 'https://dev.azure.com/nikhilr0395'
     command: 'buildAndPush'
     Dockerfile: '**/Dockerfile'
-    tags: '$(Build.BuildId)'
