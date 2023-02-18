@@ -27,6 +27,6 @@ steps:
 - task: Docker@2
   inputs:
     containerRegistry: 'devops-docker'
-    repository: 'https://dev.azure.com/nikhilr0395'
+    repository: 'nikhil609651 / devops-basics'
     command: 'buildAndPush'
     Dockerfile: '**/AzureDockerfile'
